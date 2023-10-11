@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Materials">
+      <UniqueIdentifier>{91acc039-1431-4db8-a321-4b53be181580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Events">
+      <UniqueIdentifier>{30416b02-3258-4fc0-b539-ad39c6fff6d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ModelLoaders">
+      <UniqueIdentifier>{e82a1e02-f396-491e-917a-78a56b6874ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Collision">
+      <UniqueIdentifier>{7dc2f36b-68b9-410c-b61d-d4131426fb4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\SceneObjects">
+      <UniqueIdentifier>{7a1579bb-c701-4fa6-b585-29a7de41f32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Shader_cores">
+      <UniqueIdentifier>{1aedbf57-9c50-4cbb-9850-b12ccf7ea684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Serialization">
+      <UniqueIdentifier>{54a691b1-da71-4502-983c-dcbd158d4bc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterEntity.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalObject.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libs.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitives.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoaderr.h">
+      <Filter>Файлы заголовков\ModelLoaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Файлы заголовков\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem.h">
+      <Filter>Файлы заголовков\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Файлы заголовков\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodEventHandler.h">
+      <Filter>Файлы заголовков\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Файлы заголовков\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Файлы заголовков\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionLogic.h">
+      <Filter>Файлы заголовков\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.h">
+      <Filter>Файлы заголовков\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionPacket.h">
+      <Filter>Файлы заголовков\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterEntity.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelBase.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject.h">
+      <Filter>Файлы заголовков\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalObject.h">
+      <Filter>Файлы заголовков\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Файлы заголовков\SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ISerializavle.h">
+      <Filter>Файлы заголовков\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream_writer.h">
+      <Filter>Файлы заголовков\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream_io.h">
+      <Filter>Файлы заголовков\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="type_traits.h">
+      <Filter>Файлы заголовков\Serialization</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment_core.glsl">
+      <Filter>Файлы ресурсов\Shader_cores</Filter>
+    </None>
+    <None Include="vertex_core.glsl">
+      <Filter>Файлы ресурсов\Shader_cores</Filter>
+    </None>
+  </ItemGroup>
+</Project>
