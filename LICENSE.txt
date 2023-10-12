@@ -1,6 +1,6 @@
 All Rights Reserved
 
-Copyright (c) Synergy.StandardApps.2023 Speed-Fire
+Copyright (c) CPP_OpenGl_Engine.2023 Speed-Fire
 
 Created by Techcable
 
